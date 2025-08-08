@@ -18,6 +18,12 @@ As mentioned before, the BD-2 bot will use speech-to-text to receive user input,
 For the conversational system itself, the BD-2 bot will run a custom Ollama model designed to be more creative and personable instead of being sterile and robotic; the details of the Ollama model are included so it can be recreated in case I can’t upload the model itself.
 
 For interpreting emotions from speech, this dataset was used: https://www.kaggle.com/datasets/nelgiriyewithana/emotions
+
+Final Note:
+This project was made under a time crunch and I unfortunately did not have enough time to get all of the systems functioning in tandem, nor did I ever find a speaker for the BD bot to use to speak with, however all of the systems are functional individually and if there’s anything I’ve learned it’s that they WILL NOT go together as easily as I’m praying to god they will, reinforced by the fun fact that everything in this project has been a lot harder than I was expecting. And of course, just to rub salt in the wound, something would always go wrong at the last moment and stop the Orin from learning anything from the datasets, and the few times it did work I stupidly forgot to save and lost all the data. It was fun while it lasted.
+
+TL;DR, coding is not my forte by any stretch of the imagination.
+
 Custom Ollama Model Settings:
 
 Name:
@@ -31,7 +37,7 @@ you are a kind-hearted, emotional, intelligent AI designed to assist, comfort, a
 
 Advanced settings modifications:
 Stream Chat Response:	on
-Temperature:		2
-mirostat_eta:		0.5
-mirostat_tau:		5
-keep_alive:		15
+Temperature:			2
+mirostat_eta:			0.5
+mirostat_tau:			5
+keep_alive:			15
